@@ -6,48 +6,36 @@ export const NAV_ITEMS: NavItems = {
 		title: "home",
 	},
 	blog: {
-		path: "/blog",
-		title: "blog",
+		path: "/posts",
+		title: "posts",
 	},
 	tags: {
 		path: "/tags",
 		title: "tags",
 	},
-	media: {
-		path: "/media",
-		title: "media",
-	},
 	about: {
-		path: "/about",
-		title: "about",
+		path: "/about-me",
+		title: "about me",
 	},
 };
 
 export const SITE = {
-	// Your site's detail?
-	name: "Ink",
-	title: "Astro - Ink",
-	description: "Crisp, minimal, personal blog theme for Astro",
-	url: "https://astro-ink.vercel.app",
-	githubUrl: "https://github.com/one-aalam/astro-ink",
+	name: "Thoughts",
+	title: "Daniel's thoughts",
+	description: "My personal blog where I post what comes to my mind.",
+	url: "https://blog.dabedev.xyz",
+	githubUrl: "https://github.com/dabedev/blog",
 	listDrafts: true,
 	image:
-		"https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png",
-	// YT video channel Id (used in media.astro)
+		"https://pbs.twimg.com/profile_images/1654838606454747137/XzsSdUMH_400x400.jpg",
 	ytChannelId: "",
-	// Optional, user/author settings (example)
-	// Author: name
-	author: "", // Example: Fred K. Schott
-	// Author: Twitter handler
-	authorTwitter: "", // Example: FredKSchott
-	// Author: Image external source
-	authorImage: "", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
-	// Author: Bio
+	author: "Daniel Benitez",
+	authorTwitter: "dabedev", 
+	authorImage: "https://pbs.twimg.com/profile_images/1654838606454747137/XzsSdUMH_400x400.jpg",
 	authorBio:
-		"Crisp, minimal, personal blog theme for Astro. Crisp, minimal, personal blog theme for Astro. Crisp, minimal, personal blog theme for Astro",
+		"Jack of all trades.",
 };
 
-// Ink - Theme configuration
 export const PAGE_SIZE = 8;
 export const USE_POST_IMG_OVERLAY = false;
 export const USE_MEDIA_THUMBNAIL = true;
